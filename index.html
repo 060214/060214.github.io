@@ -1,1 +1,200 @@
-Liu Yifei
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>张三的个人简历</title>
+    <style>
+        body {
+            font-family: 'Microsoft YaHei', Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1 {
+            color: #2c3e50;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 10px;
+        }
+        h2 {
+            color: #2980b9;
+            border-left: 4px solid #3498db;
+            padding-left: 10px;
+            margin-top: 25px;
+        }
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        .contact-info {
+            text-align: right;
+        }
+        .section {
+            margin-bottom: 20px;
+        }
+        .job-title {
+            font-weight: bold;
+            display: flex;
+            justify-content: space-between;
+        }
+        .company {
+            font-weight: bold;
+            color: #2c3e50;
+        }
+        .date {
+            color: #7f8c8d;
+            font-style: italic;
+        }
+        ul {
+            margin-top: 5px;
+            padding-left: 20px;
+        }
+        li {
+            margin-bottom: 5px;
+        }
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .skill-category {
+            flex-basis: 30%;
+            margin-right: 3%;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div>
+            <h1>张三</h1>
+            <p>前端开发工程师 | 3年经验</p>
+        </div>
+        <div class="contact-info">
+            <p>电话: 138-1234-5678</p>
+            <p>邮箱: zhangsan@example.com</p>
+            <p>GitHub: github.com/zhangsan</p>
+            <p>地址: 北京市海淀区</p>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>个人简介</h2>
+        <p>专注前端开发3年，熟练掌握React、Vue等主流框架，有丰富的项目开发经验。热爱技术，善于学习，具备良好的团队协作能力和沟通能力。</p>
+    </div>
+
+    <div class="section">
+        <h2>工作经历</h2>
+        <div>
+            <div class="job-title">
+                <span class="company">ABC科技有限公司</span>
+                <span class="date">2020.07 - 至今</span>
+            </div>
+            <p>前端开发工程师</p>
+            <ul>
+                <li>负责公司核心产品的前端架构设计和开发，使用React+Redux技术栈</li>
+                <li>优化前端性能，将页面加载速度提升40%</li>
+                <li>主导开发了公司内部UI组件库，提高了开发效率30%</li>
+                <li>与产品、设计、后端团队紧密合作，确保项目按时高质量交付</li>
+            </ul>
+        </div>
+
+        <div>
+            <div class="job-title">
+                <span class="company">XYZ互联网公司</span>
+                <span class="date">2018.06 - 2020.06</span>
+            </div>
+            <p>初级前端开发工程师</p>
+            <ul>
+                <li>参与公司多个项目的前端开发工作，使用Vue.js技术栈</li>
+                <li>负责移动端H5页面开发，实现响应式布局</li>
+                <li>协助团队进行代码审查和技术文档编写</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>教育背景</h2>
+        <div class="job-title">
+            <span class="company">北京大学</span>
+            <span class="date">2014.09 - 2018.06</span>
+        </div>
+        <p>计算机科学与技术 | 本科</p>
+        <ul>
+            <li>GPA: 3.7/4.0 (专业前10%)</li>
+            <li>主修课程: 数据结构、算法设计、计算机网络、操作系统等</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>技能专长</h2>
+        <div class="skills">
+            <div class="skill-category">
+                <h3>前端技术</h3>
+                <ul>
+                    <li>HTML5/CSS3/JavaScript</li>
+                    <li>React/Vue.js</li>
+                    <li>TypeScript</li>
+                    <li>Webpack</li>
+                </ul>
+            </div>
+            <div class="skill-category">
+                <h3>后端技术</h3>
+                <ul>
+                    <li>Node.js</li>
+                    <li>Express</li>
+                    <li>MySQL/MongoDB</li>
+                </ul>
+            </div>
+            <div class="skill-category">
+                <h3>其他技能</h3>
+                <ul>
+                    <li>Git版本控制</li>
+                    <li>敏捷开发</li>
+                    <li>英语六级</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>项目经验</h2>
+        <div>
+            <div class="job-title">
+                <span class="company">电商后台管理系统</span>
+                <span class="date">2021.03 - 2021.08</span>
+            </div>
+            <ul>
+                <li>项目描述: 为大型电商平台开发的后台管理系统，包含商品管理、订单管理、用户管理等功能模块</li>
+                <li>技术栈: React + Ant Design + Redux + Node.js</li>
+                <li>个人贡献: 负责前端架构设计、核心功能开发和性能优化</li>
+                <li>项目成果: 系统上线后，运营效率提升50%</li>
+            </ul>
+        </div>
+
+        <div>
+            <div class="job-title">
+                <span class="company">在线教育平台</span>
+                <span class="date">2020.09 - 2021.02</span>
+            </div>
+            <ul>
+                <li>项目描述: 提供在线课程学习、直播授课、作业提交等功能的平台</li>
+                <li>技术栈: Vue.js + Element UI + WebSocket</li>
+                <li>个人贡献: 主导前端开发，实现实时互动功能</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>获奖证书</h2>
+        <ul>
+            <li>2021年公司优秀员工</li>
+            <li>2020年全栈开发大赛二等奖</li>
+            <li>大学英语六级(CET-6)</li>
+            <li>计算机等级考试三级(数据库技术)</li>
+        </ul>
+    </div>
+</body>
+</html>
